@@ -35,3 +35,30 @@ function printAgeAndName(birthYear, name) {
     console.log(`Hello ${name} you are ${new Date().getFullYear() - birthYear} years old`)
 }
 
+/**
+ * Task 4:
+ * Create a function named `printHello`
+ * - that takes 2 parameters, name, and language
+ * - language can be passed in different values, here are the accepted values:-
+ * -- en: it should print `Hello NAME`
+ * -- es: it should print `Hola NAME`
+ * -- fr: it should print `Bonjour NAME`
+ * -- tr: it should print `Merhaba NAME`
+ */
+
+function printHello(name, language) {
+    switch(language) {
+        case 'en':
+            console.log(`Hello ${name}`)
+            break;
+        case 'es':
+            console.log(`Hola ${name}`)
+            break;
+        case 'fr':
+            console.log(`Bonjour ${name}`)
+            break;
+        case 'tr':
+            console.log(`Merhaba ${name}`)    
+    }
+
+}
