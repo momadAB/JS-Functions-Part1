@@ -4,10 +4,8 @@
  * - that just prints your name on the screen
  */
 
-const name = 'Mohammad Baqer'
-
-function printName(name) {
-    console.log(name);
+function printName() {
+    console.log('Mohammad Baqer');
 }
 
 /**
@@ -61,4 +59,18 @@ function printHello(name, language) {
             console.log(`Merhaba ${name}`)    
     }
 
+}
+
+
+/**
+ * Task 5:
+ * Create a function named `printMax`
+ * - that takes 2 parameters as numbers
+ * - should print out the bigger number
+ */
+
+function printMax(num1, num2) {
+    if (num1 > num2) console.log(num1)
+    else if (num1 < num2) console.log(num2)
+    else console.log('The numbers are equal.')
 }
